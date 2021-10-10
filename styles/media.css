@@ -1,3 +1,4 @@
+/*horizontal*/
 @media screen and (max-width: 1160px) {
     .main_body_description {
         font-size: 30px;
@@ -36,5 +37,49 @@
     }
     .main_aside_context {
         display: none;
+    }
+}
+/*vertical*/
+@media screen and (max-height: 470px) {
+    .main_nav {
+        bottom: 75px;
+    }
+    .link_nav {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-height: 420px) {
+    .main_nav {
+        bottom: 65px;
+    }
+    .link_nav {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-height: 350px) {
+    .main_nav {
+        bottom: 45px;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    .TMP_logo_header {
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-height: 240px) {
+    .TMP_logo_header {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .main_nav {
+        bottom: 25px;
+    }
+    .link_nav {
+        margin-top: 5px;
     }
 }
