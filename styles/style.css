@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+}
+a {
+    text-decoration: none;
+}
+
+/* MAIN PAGE */
+.wrapper_main_page {
+    background-image: url("../images/main/main_bg.jpg");
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    width: 100vw;
+    height: 100vh;
+}
+.content_wrapper {
+    width: 90vw;
+    margin: 0 auto;
+}
+.header {
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_header {
+    display: flex;
+    align-items: center;
+}
+.icon_contact_header{
+    display: flex;
+    align-items: center;
+    padding-right: 6vw;
+}
+.icon_contact_header_link{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+/* hover link of contact */
+.icon_contact_header_svg:hover {
+    width: 28px;
+    height: 28px;
+}
+.icon_contact_header_svg:hover g rect {
+    fill: #FFF500;
+}
+
+.main_wrapper_context {
+    display: flex;
+    justify-content: space-between;
+    height: 87vh;
+}
+.main_body_context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+.main_body_description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.main_aside_context {
+    position: relative;
+    width: 40%;
+}
+.main_nav {
+    position: absolute;
+    right: 0;
+    bottom: 85px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.link_nav {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.link_nav a {
+    width: 100%;
+    text-align: start;
+}
+.link_nav a:hover {
+    color: #FFF500;
+}
+.mark_point {
+    margin-right: 20px;
+}
+/* END MAIN PAGE */
