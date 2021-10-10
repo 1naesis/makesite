@@ -46,6 +46,9 @@ a {
     align-items: center;
     margin-left: 40px;
 }
+.icon_contact_header_link:first-child{
+    margin-left: 0px;
+}
 /* hover link of contact */
 .icon_contact_header_svg:hover {
     width: 28px;
@@ -105,3 +108,17 @@ a {
     margin-right: 20px;
 }
 /* END MAIN PAGE */
+
+
+
+
+
+/* TMP style*/
+.TMP_logo_header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}

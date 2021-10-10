@@ -1,0 +1,40 @@
+@media screen and (max-width: 1160px) {
+    .main_body_description {
+        font-size: 30px;
+        line-height: 33px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .main_body_description {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .TMP_logo_header {
+        font-size: 70px;
+        margin-bottom: 45px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 570px) {
+    .contact_header {
+        flex-direction: column;
+    }
+    .icon_contact_header {
+        padding-right: 0;
+        margin: 6px 0;
+    }
+    .main_wrapper_context {
+        text-align: center;
+    }
+    .main_body_context {
+        width: 100%;
+        align-items: center;
+    }
+    .main_aside_context {
+        display: none;
+    }
+}
